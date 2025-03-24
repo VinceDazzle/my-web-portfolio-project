@@ -1,15 +1,68 @@
 .content {
-  margin: 20px 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
+.main-content {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.main-content-left {
+  flex: 1;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.main-content-right {
+  flex: 1;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
 .my-picture  {
-  height: 250px;
-  width: 250px;
+  height: 220px;
+  width: 220px;
+  border: solid;
+  border-radius: 10px;
+  border-color: rgb(37, 37, 37);
 }
 
 h1 {
-  text-align: center
+  margin: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.my-resume {
+  text-align: center;
+}
+
+.resume-button {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(145, 141, 141);
+  color: rgb(22, 22, 22);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s, padding 0.5s;
+}
+
+.resume-button:hover {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
 }
