@@ -1,0 +1,15 @@
+.content {
+  margin: 20px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-picture  {
+  height: 250px;
+  width: 250px;
+}
+
+h1 {
+  text-align: center
+}
