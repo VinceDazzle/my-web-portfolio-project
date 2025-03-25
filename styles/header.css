@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(37, 37, 37);
-  height: 80px;
+  height: 100px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -21,7 +21,7 @@
   object-fit: fill;
   object-position: center;
   border-radius: 20px;
-  margin-right: 8px;
+  margin-right: 12px;
 }
 
 .header-right-section {

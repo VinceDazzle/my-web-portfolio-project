@@ -1,15 +1,11 @@
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+/* main content styles */
 
 .main-content {
-  margin: 30px 40px;
+  margin: 40px;
   display: flex;
   flex-direction: row;
   align-items: top;
+  border: solid;
 }
 
 .main-content-left {
@@ -54,7 +50,7 @@ p {
   border-color: rgb(37, 37, 37);
 }
 
-h1 {
+.main-h1 {
   margin: 0px;
   margin-bottom: 20px;
 }
@@ -81,4 +77,54 @@ h1 {
   color: white;
   padding: 10px 30px;
   border-radius: 25px;
+}
+
+/* project cards styles */
+
+.middle-content {
+  height: 120px;
+  background-color: rgb(37, 37, 37);
+}
+
+/* project cards styles */
+
+.project-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+.project1-picture {
+  height: 600px;
+  width: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px 0 rgb(255, 255, 255);
+  background-color: rgb(128, 126, 126);
+  transition: box-shadow 0.5s;
+}
+
+.card-container:hover {
+  box-shadow: 0 6px 10px 0 rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+h3 {
+  margin: 0;
+}
+
+.card-image,
+.card-title,
+.card-subtitle {
+  margin-bottom: 20px;
+}
+
+.card-title,
+.card-subtitle {
+  margin-left: 15px;
 }
