@@ -1,62 +1,42 @@
-/* main content styles */
+/* Content styles */
 
-.main-content {
-  margin: 40px;
+.content {
   display: flex;
   flex-direction: row;
-  align-items: top;
-  border: solid;
+  padding: 70px 60px;
 }
 
-.main-content-left {
-  margin-right: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.hi-my-name {
+  font-size: 40px;
+  font-weight: 700;
 }
 
-.main-content-right {
-  margin-left: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-p {
-  margin: 0;
+.my-career {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3B82F6;
+  line-height: 40px;
   margin-bottom: 20px;
 }
 
-.here-link {
-  color: white;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.here-link:hover {
-  text-decoration: underline;
-}
-
-.here-link:active {
-  text-decoration: underline;
-  color: rgb(145, 141, 141);
+.subtitle {
+  color: #bcbfc5;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .my-picture  {
-  height: 300px;
-  width: 300px;
-  border: solid;
-  border-radius: 20px;
-  border-color: rgb(37, 37, 37);
-}
-
-.main-h1 {
-  margin: 0px;
-  margin-bottom: 20px;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  box-shadow: 100;
+  margin-right: 100px;
+  margin-left: 30px;
+  box-shadow: 15px 10px 50px 20px #1a2d4f;
 }
 
 .my-resume {
-  text-align: center;
+  text-align: start
 }
 
 .resume-button {
@@ -69,62 +49,24 @@ p {
   padding: 10px 15px;
   border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.5s, padding 0.5s;
+  transition: background-color 0.5s, padding 0.5s, color 0.5s;
 }
 
 .resume-button:hover {
   background-color: rgb(37, 37, 37);
   color: white;
-  padding: 10px 30px;
   border-radius: 25px;
 }
 
-/* project cards styles */
+/* featured Projects styles */
 
-.middle-content {
-  height: 120px;
-  background-color: rgb(37, 37, 37);
+.featured-projects {
+  height: 500px;
+  background-color: #18212f;
+  padding: 70px 60px;
 }
 
-/* project cards styles */
-
-.project-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 40px;
-}
-
-.project1-picture {
-  height: 600px;
-  width: auto;
-}
-
-.card-container {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 4px 6px 0 rgb(255, 255, 255);
-  background-color: rgb(128, 126, 126);
-  transition: box-shadow 0.5s;
-}
-
-.card-container:hover {
-  box-shadow: 0 6px 10px 0 rgb(255, 255, 255);
-  cursor: pointer;
-}
-
-h3 {
-  margin: 0;
-}
-
-.card-image,
-.card-title,
-.card-subtitle {
-  margin-bottom: 20px;
-}
-
-.card-title,
-.card-subtitle {
-  margin-left: 15px;
+.featured-projects-title {
+  font-weight: 700;
+  font-size: 20px;
 }
