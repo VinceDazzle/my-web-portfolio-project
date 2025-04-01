@@ -1,4 +1,10 @@
 /* Content styles */
+.body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
 
 .content {
   display: flex;
@@ -43,19 +49,19 @@
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 700;
-  background-color: rgb(145, 141, 141);
-  color: rgb(22, 22, 22);
-  border: none;
-  padding: 10px 15px;
-  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  border: solid 1.5px rgb(97, 97, 97);
+  padding: 10px 25px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.5s, padding 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 .resume-button:hover {
-  background-color: rgb(37, 37, 37);
-  color: white;
-  border-radius: 25px;
+  background-color: rgb(97, 97, 97);
+  color: rgb(0, 0, 0);
+  border-color: rgb(97, 97, 97);
 }
 
 /* featured Projects styles */
