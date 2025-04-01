@@ -9,7 +9,7 @@
 .content {
   display: flex;
   flex-direction: row;
-  padding: 70px 60px;
+  padding: 70px 80px;
 }
 
 .hi-my-name {
@@ -67,12 +67,60 @@
 /* featured Projects styles */
 
 .featured-projects {
-  height: 500px;
   background-color: #18212f;
-  padding: 70px 60px;
+  padding: 70px 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.featured-projects-main-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.featured-projects-grid {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
 }
 
 .featured-projects-title {
   font-weight: 700;
   font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.featured-projects-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  color: #bcbfc5;
+}
+
+.featured-projects-cards {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  border-radius: 8px;
+  width: 440px;
+}
+
+.image-project1 {
+  height: 250px;
+  width: 440px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.featured-projects-content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.featured-projects-skills-used {
+  display: flex;
+}
+
