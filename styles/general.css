@@ -1,5 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
- margin: 0;
+ display: flex;
+ flex-direction: column;
  font-family: Montserrat;
  background-color: #111827;
  color: white;

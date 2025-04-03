@@ -1,20 +1,16 @@
 /* Content styles */
-.body {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-}
-
 .content {
   display: flex;
   flex-direction: row;
-  padding: 70px 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 70px;
   flex-wrap: wrap;
 }
 
 .content-left {
   max-width: 900px;
+  margin-top: 70px;
 }
 
 .hi-my-name {
@@ -42,7 +38,8 @@
   border-radius: 125px;
   box-shadow: 100;
   margin-right: 100px;
-  margin-left: 30px;
+  margin-left: 40px;
+  margin-top: 70px;
   box-shadow: 15px 10px 50px 20px #1a2d4f;
 }
 
@@ -69,6 +66,12 @@
   border-color: rgb(97, 97, 97);
 }
 
+.resume-button:active {
+  background-color: rgb(166, 166, 166);
+  color: rgb(0, 0, 0);
+  border-color: rgb(166, 166, 166);
+}
+
 /* featured Projects styles */
 
 .featured-projects {
@@ -82,7 +85,7 @@
 .featured-projects-main-title {
   font-weight: 700;
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .featured-projects-grid {
@@ -103,6 +106,7 @@
   font-weight: 700;
   font-size: 14px;
   color: #bcbfc5;
+  margin-bottom: 10px;
 }
 
 .featured-projects-cards {
@@ -111,6 +115,7 @@
   background-color: #1f2937;
   border-radius: 8px;
   width: 440px;
+  margin-top: 40px;
 }
 
 .image-project1 {
@@ -123,9 +128,34 @@
 .featured-projects-content {
   padding-left: 25px;
   padding-right: 25px;
+  padding-bottom: 20px;
 }
 
 .featured-projects-skills-used {
   display: flex;
 }
 
+.skill-powerapps {
+  background-color: #7427749d;
+}
+
+.skill-powerautomate {
+  background-color: #0052ccaf;
+}
+
+.skill-sharepoint {
+  background-color: #00b294ab;
+}
+
+.skill-powerautomate,
+.skill-sharepoint,
+.skill-powerapps {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.skill-powerautomate,
+.skill-sharepoint {
+  margin-left: 10px;
+}
