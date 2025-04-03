@@ -130,32 +130,3 @@
   padding-right: 25px;
   padding-bottom: 20px;
 }
-
-.featured-projects-skills-used {
-  display: flex;
-}
-
-.skill-powerapps {
-  background-color: #7427749d;
-}
-
-.skill-powerautomate {
-  background-color: #0052ccaf;
-}
-
-.skill-sharepoint {
-  background-color: #00b294ab;
-}
-
-.skill-powerautomate,
-.skill-sharepoint,
-.skill-powerapps {
-  font-size: 12px;
-  padding: 5px 10px;
-  border-radius: 15px;
-}
-
-.skill-powerautomate,
-.skill-sharepoint {
-  margin-left: 10px;
-}
